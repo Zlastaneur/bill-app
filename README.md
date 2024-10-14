@@ -4,11 +4,7 @@ Ce projet, dit frontend, est connecté à un service API backend que vous devez 
 
 ## Comment lancer l'application en local ?
 
-### étape 1 - Lancer le backend :
-
-Suivez les indications dans le README du projet backend.
-
-### étape 2 - Lancer le frontend :
+### étape 1 - Lancer le frontend :
 
 Allez au repo cloné :
 
@@ -73,7 +69,7 @@ utilisateur : employee@test.tld
 mot de passe : employee
 ```
 
-# Billapp backend
+### étape 2 - Lancer le backend :
 
 ## Comment lancer l'API en local:
 
