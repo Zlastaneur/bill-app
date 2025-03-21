@@ -43,6 +43,8 @@ describe('Given I am connected', () => {
       const disco = screen.getByTestId('layout-disconnect')
       disco.addEventListener('click', handleClick)
       userEvent.click(disco)
+
+      // Check if handleClick is called and user is redirected to login page
       expect(handleClick).toHaveBeenCalled()
       expect(screen.getByText('Administration')).toBeTruthy()
     })

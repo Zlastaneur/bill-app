@@ -16,6 +16,7 @@ export default class Login {
     formAdmin.addEventListener("submit", this.handleSubmitAdmin)
   }
   handleSubmitEmployee = e => {
+
     e.preventDefault()
     const user = {
       type: "Employee",
